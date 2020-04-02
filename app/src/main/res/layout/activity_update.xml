@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <EditText
+        android:id="@+id/et_namaUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="namaaa"/>
+    <EditText
+        android:id="@+id/et_alamatUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="alamat"/>
+    <EditText
+        android:id="@+id/et_jeniskelUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="jenis kelamin"
+        />
+    <Button
+        android:id="@+id/btn_updateUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE DATA"
+        />
+
+</LinearLayout>
